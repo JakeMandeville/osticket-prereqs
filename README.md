@@ -63,3 +63,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
   Back in IIS navigate to Sites > Default > osTicket and select "Browse *:80 (http) on the right hand side.
   <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/Set%20up%20osTicket.png"></p>
+  To get into osTicket you will need to activate some extensions, back in IIS go to Sites > Default > osTicket and double-click PHP Manager and select "Enable or disable an extension" and enable the following extensions:
+  <list><li>Enable: php_imap.dll</li>
+  <li>Enable: php_intl.dll</li>
+  <li>Enable: php_opcache.dll</li></list>
+  Rename the "ost-sampleconfig.php" found in "C:\inetpub\wwwroots\osTicket\include\" to "ost-config.php"
+  <br />
+  Right click the "ost-config.php" file and open the properties, go to the security tab and select advanced, disable inheritance - then 
