@@ -35,6 +35,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <list><li>From Windows search open the "Turn Windows feautres on or off"</li>
     <li>Open the path Internet Information Servies > World Wide Web Services > Application Development Features > Enable CGI and begin the install.</li></list>
   <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/Enable%20IIS%20install%20CGI.png" alt="CGI install placeholder"></p>
+<p>
+  Once this is set up you can verify this worked by navigating to the IIS site by entering "127.0.0.1" into an internet browser
+  <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/IIS.png"></p>
+  If you wish you can also edit the code for this site by opening a notepad as an administrator and open C:/inetpub/wwwroot (view all file) and open the iisstart file, any changes made on this file will edit the ISS homepage.
+  <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/IIS%20editing.png"></p>
+</p>
+
+
+  
 </p>
   Once CGI is install begin installing PHP Manager from the <a href="https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10">Microsoft Website</a>
 </p>
