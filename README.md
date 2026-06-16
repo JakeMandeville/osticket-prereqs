@@ -62,4 +62,4 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li></li>Once OSTicket is installed Unzip the file and copy the "upload" folder into "c:\inetpub\wwwroot" and rename it "osTicket" and restart the IIS server again.</li></list>
 <br />
   Back in IIS navigate to Sites > Default > osTicket and select "Browse *:80 (http) on the right hand side.
-  <p align="center><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/Set%20up%20osTicket.png"></p>
+  <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/Set%20up%20osTicket.png"></p>
