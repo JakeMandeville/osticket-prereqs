@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>Start off by depoloying a Virtual Machine of your choice, for this example <a href="https://azure.microsoft.com/en-us/get-started/azure-portal">Microsoft Azure</a> was used</p>
 <h3>Prerequisites</h3>
-<p>For a more detailed breakdown of the requirements you can navigate to the<a href="https://docs.osticket.com/en/latest/Getting%20Started/Installation.html#prerequisites">OSTicket documentation</a>a</p>
+<p>For a more detailed breakdown of the requirements you can navigate to the <a href="https://docs.osticket.com/en/latest/Getting%20Started/Installation.html#prerequisites">OSTicket documentation</a></p>
 <p>
   After getting set up in your virtual machine Enable IIS using CGI:
     <list><li>From Windows search open the "Turn Windows feautres on or off"</li>
@@ -43,11 +43,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/IIS%20editing.png"></p>
 </p>
 
-
-  
 </p>
   Once CGI is installed begin installing PHP Manager and the Rewrite Module from the <a href="https://www.iis.net/downloads">Microsoft Website</a> or directly from the OSTicket documentation noted above.
   <br />
   Create a directory in your C drive for PHP "C:\PHP" and begin installing <a href="https://www.php.net/downloads.php">PHP</a> and unzip the file into the PHP directory.
+  <br />
+  Download a version of the <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170&utm_source=chatgpt.com">Microsoft Visual C++ Redistributable</a>
+  <br />
+  Finally you will need to download <a href="https://dev.mysql.com/downloads/installer/">MySQL</a>
 </p>
+
 <br />
