@@ -33,8 +33,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   After getting set up in your virtual machine Enable IIS using CGI:
     <list><li>From Windows search open the "Turn Windows feautres on or off"</li>
-    <li>-Open the path Internet Information Servies > World Wide Web Services > Application Development Features > Enable CGI and begin the install.</li></list>
-  <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/Enable%20IIS%20install%20CGI.png" alt="CGI install placeholder">
-  nstalling PHP Manager from the <a href="https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10">Microsoft Website</a>
+    <li>Open the path Internet Information Servies > World Wide Web Services > Application Development Features > Enable CGI and begin the install.</li></list>
+  <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/Enable%20IIS%20install%20CGI.png" alt="CGI install placeholder"></p>
+</p>
+  Once CGI is install begin installing PHP Manager from the <a href="https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10">Microsoft Website</a>
 </p>
 <br />
