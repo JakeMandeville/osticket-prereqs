@@ -45,6 +45,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
   
 </p>
-  Once CGI is install begin installing PHP Manager from the <a href="https://www.iis.net/downloads/community/2018/05/php-manager-150-for-iis-10">Microsoft Website</a>
+  Once CGI is install begin installing PHP Manager from the <a href="https://www.iis.net/downloads">Microsoft Website</a>
 </p>
 <br />
