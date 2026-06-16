@@ -45,11 +45,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p><list>
   <li>Once CGI is installed begin installing PHP Manager and the Rewrite Module from the <a href="https://www.iis.net/downloads">Microsoft Website</a> or directly from the OSTicket documentation noted above.</li>
-  <br /><br />
+  
   <li>Create a directory in your C drive for PHP "C:\PHP" and begin installing <a href="https://www.php.net/downloads.php">PHP</a> and unzip the file into the PHP directory.</li>
-  <br /><br />
+
   <li>Download a version of the <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170&utm_source=chatgpt.com">Microsoft Visual C++ Redistributable</a></li>
-  <br /><br />
+
   <li>Finally you will need to download <a href="https://dev.mysql.com/downloads/installer/">MySQL</a></li></list>
 </p>
 
