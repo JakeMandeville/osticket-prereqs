@@ -58,6 +58,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/set%20up%20PHP.png"></p>
   <li>from the IIS Manager homepage restart your OSTicket server to make sure the PHP manager is properly running.</li>
   
-  <li>Finally, you can install the latest version of OSTocket</li></list>
-
+  <li>Finally, you can install the latest version of OSTocket from the <a href="https://docs.osticket.com/en/latest/Getting%20Started/Installation.html">documentation</a></li></list>
+  Once OSTicket is installed Unzip tghe file and copy the "upload" folder into "c:\inetpub\wwwroot" and rename it "osTicket" and restart the IIS server again.
 <br />
+  Back in IIS navigate to Sites > Default > osTicket -
