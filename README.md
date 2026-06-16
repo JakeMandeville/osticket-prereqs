@@ -36,21 +36,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     <list><li>From Windows search open the "Turn Windows feautres on or off"</li>
     <li>Open the path Internet Information Servies > World Wide Web Services > Application Development Features > Enable CGI and begin the install.</li></list>
   <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/Enable%20IIS%20install%20CGI.png" alt="CGI install placeholder"></p>
-<p>
-  Once this is set up you can verify this worked by navigating to the IIS site by entering "127.0.0.1" into an internet browser
+<p><list>
+  <li>Once this is set up you can verify this worked by navigating to the IIS site by entering "127.0.0.1" into an internet browser</li>
   <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/IIS.png"></p>
-  If you wish you can also edit the code for this site by opening a notepad as an administrator and open C:\inetpub\wwwroot (view all file) and open the iisstart file, any changes made on this file will edit the ISS homepage.
+  <li>If you wish you can also edit the code for this site by opening a notepad as an administrator and open C:\inetpub\wwwroot (view all file) and open the iisstart file, any changes made on this file will edit the ISS homepage.</li></list>
   <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/IIS%20editing.png"></p>
 </p>
 
-</p>
-  Once CGI is installed begin installing PHP Manager and the Rewrite Module from the <a href="https://www.iis.net/downloads">Microsoft Website</a> or directly from the OSTicket documentation noted above.
+</p><list>
+  <li>Once CGI is installed begin installing PHP Manager and the Rewrite Module from the <a href="https://www.iis.net/downloads">Microsoft Website</a> or directly from the OSTicket documentation noted above.</li>
   <br /><br />
-  Create a directory in your C drive for PHP "C:\PHP" and begin installing <a href="https://www.php.net/downloads.php">PHP</a> and unzip the file into the PHP directory.
+  <li>Create a directory in your C drive for PHP "C:\PHP" and begin installing <a href="https://www.php.net/downloads.php">PHP</a> and unzip the file into the PHP directory.</li>
   <br /><br />
-  Download a version of the <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170&utm_source=chatgpt.com">Microsoft Visual C++ Redistributable</a>
+  <li>Download a version of the <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170&utm_source=chatgpt.com">Microsoft Visual C++ Redistributable</a></li>
   <br /><br />
-  Finally you will need to download <a href="https://dev.mysql.com/downloads/installer/">MySQL</a>
+  <li>Finally you will need to download <a href="https://dev.mysql.com/downloads/installer/">MySQL</a></li></list>
 </p>
 
 <br />
