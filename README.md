@@ -50,7 +50,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
   <li>Download a version of the <a href="https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170&utm_source=chatgpt.com">Microsoft Visual C++ Redistributable</a></li>
 
-  <li>Finally you will need to download <a href="https://dev.mysql.com/downloads/installer/">MySQL</a></li></list>
-</p>
-<p>Open Internet Information Services (IIS) as an Admin</p>
+  <li>You will also need to download <a href="https://dev.mysql.com/downloads/installer/">MySQL</a></li>
+
+  <list><li>Open Internet Information Services (IIS) Manager as an Admin</li>
+  <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/IIS%20admin.png"></p>
+  <li>Open "PHP Manager" and Register a new PHP version and open the "C:\PHP\php-cgi.exe" file.</li>
+  <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/set%20up%20PHP.png"></p>
+  <li>from the IIS Manager homepage restart your OSTicket server to make sure the PHP manager is properly running.</li>
+  
+  <li>Finally, you can install the latest version of OSTocket</li></list>
+
 <br />
