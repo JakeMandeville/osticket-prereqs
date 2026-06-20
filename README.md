@@ -69,4 +69,4 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>Enable: php_opcache.dll</li></list>
   Rename the "ost-sampleconfig.php" found in "C:\inetpub\wwwroots\osTicket\include\" to "ost-config.php"
   <br />
-  Right click the "ost-config.php" file and open the properties, go to the security tab and select advanced, disable inheritance - then 
+  Right click the "ost-config.php" file and open the properties, go to the security tab and select advanced, disable inheritance - then remove all and set new permissions. For the purpose of this lab the permissions were set to everyone <b>THIS IS NOT ADVISED IF OSTICKET IS GOING TO ACTUALLY BE USED OUTSIDE OF PRACTICE!</b>
