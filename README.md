@@ -59,7 +59,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>from the IIS Manager homepage restart your OSTicket server to make sure the PHP manager is properly running.</li>
   
   <li>Finally, you can install the latest version of OSTocket from the <a href="https://docs.osticket.com/en/latest/Getting%20Started/Installation.html">documentation</a></li>
-  <li></li>Once OSTicket is installed Unzip the file and copy the "upload" folder into "c:\inetpub\wwwroot" and rename it "osTicket" and restart the IIS server again.</li></list>
+  <li>Once OSTicket is installed Unzip the file and copy the "upload" folder into "c:\inetpub\wwwroot" and rename it "osTicket" and restart the IIS server again.</li></list>
 <br />
 <p>
   Back in IIS navigate to Sites > Default > osTicket and select "Browse *:80 (http) on the right hand side.
