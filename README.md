@@ -70,5 +70,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>Enable: php_opcache.dll</li></list>
   Rename the "ost-sampleconfig.php" found in "C:\inetpub\wwwroots\osTicket\include\" to "ost-config.php"
   <br />
-  Right click the "ost-config.php" file and open the properties, go to the security tab and select advanced, disable inheritance - then remove all and set new permissions. For the purpose of this lab the permissions were set    to everyone <b>THIS IS NOT ADVISED IF OSTICKET IS GOING TO ACTUALLY BE USED OUTSIDE OF PRACTICE!</b>
+  Right click the "ost-config.php" file and open the properties, go to the security tab and select advanced, disable inheritance - then remove all and set new permissions.
+</p>
+
+<h2>Setup</h2>
+<p>At this point if you go back into OSTicket you should be able to refresh the page anjd start setting up your helpdesk website, creating the name of your helpdesk, getting a URL, and setting up the email and Admin account. 
+<br/>
+  Next, you will have to get OSTicket set up with your database. <a href="https://www.heidisql.com/download.php">HeidiSQL</a> was used in this instance.
+  <br/>
+  Upon getting HeidiSQL installed, Create a New session, you will have to sign in using the User and Password set up on the MySQL server and set up a new database named osTicket.
+  <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/HeidiSQL%20osTicket%20DB.png">
+  
 </p>
