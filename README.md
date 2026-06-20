@@ -61,6 +61,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>Finally, you can install the latest version of OSTocket from the <a href="https://docs.osticket.com/en/latest/Getting%20Started/Installation.html">documentation</a></li>
   <li></li>Once OSTicket is installed Unzip the file and copy the "upload" folder into "c:\inetpub\wwwroot" and rename it "osTicket" and restart the IIS server again.</li></list>
 <br />
+<p>
   Back in IIS navigate to Sites > Default > osTicket and select "Browse *:80 (http) on the right hand side.
   <p align="center"><img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/Set%20up%20osTicket.png"></p>
   To get into osTicket you will need to activate some extensions, back in IIS go to Sites > Default > osTicket and double-click PHP Manager and select "Enable or disable an extension" and enable the following extensions:
@@ -69,4 +70,5 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <li>Enable: php_opcache.dll</li></list>
   Rename the "ost-sampleconfig.php" found in "C:\inetpub\wwwroots\osTicket\include\" to "ost-config.php"
   <br />
-  Right click the "ost-config.php" file and open the properties, go to the security tab and select advanced, disable inheritance - then remove all and set new permissions. For the purpose of this lab the permissions were set to everyone <b>THIS IS NOT ADVISED IF OSTICKET IS GOING TO ACTUALLY BE USED OUTSIDE OF PRACTICE!</b>
+  Right click the "ost-config.php" file and open the properties, go to the security tab and select advanced, disable inheritance - then remove all and set new permissions. For the purpose of this lab the permissions were set    to everyone <b>THIS IS NOT ADVISED IF OSTICKET IS GOING TO ACTUALLY BE USED OUTSIDE OF PRACTICE!</b>
+</p>
