@@ -80,5 +80,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <br/>
   Upon getting HeidiSQL installed, Create a New session, you will have to sign in using the User and Password set up on the MySQL server and set up a new database named osTicket.
   <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/HeidiSQL%20osTicket%20DB.png">
-  
+  Back in the osTicket browser tab, you will need to fill out the MySQL Database name then provide the username and password you chose and you can begin installing your osTicket session and it will begin populating in HeidiSQL.
+  <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/osTicket%20DB%20filled.png">
 </p>
