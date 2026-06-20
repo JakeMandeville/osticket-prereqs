@@ -82,4 +82,5 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/HeidiSQL%20osTicket%20DB.png">
   Back in the osTicket browser tab, you will need to fill out the MySQL Database name then provide the username and password you chose and you can begin installing your osTicket session and it will begin populating in HeidiSQL.
   <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/osTicket%20DB%20filled.png">
+  bnack in the browser you will be provided all of your osTicket URLs for creating tickets and for the staff control panel - there will also be links to the Forums and the osTicket Documentation.
 </p>
