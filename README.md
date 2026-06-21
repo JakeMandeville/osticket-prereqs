@@ -79,10 +79,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Next, you will have to get OSTicket set up with your database. <a href="https://www.heidisql.com/download.php">HeidiSQL</a> was used in this instance.
   <br/>
   Upon getting HeidiSQL installed, Create a New session, you will have to sign in using the User and Password set up on the MySQL server and set up a new database named osTicket.
-  <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/HeidiSQL%20osTicket%20DB.png">
+  <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/HeidiSQL%20osTicket%20DB.png" align="center">
   Back in the osTicket browser tab, you will need to fill out the MySQL Database name then provide the username and password you chose and you can begin installing your osTicket session and it will begin populating in HeidiSQL.
-  <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/osTicket%20DB%20filled.png">
+  <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/osTicket%20DB%20filled.png" align="center">
   Back in the browser you will be provided all of your osTicket URLs for creating tickets and for the staff control panel - there will also be links to the Forums and the osTicket Documentation.
   <br />
   From here, it would be a good habit to delete the C:\inetpub\wwwroot\osTicket\setup folder and set C:\inetpub\wwwroot\osTicket\include\ost-config.php permissions to "Read" only.
+  Finally, when going back into osTicket you can see that the webnsite is fully set up and ready to use.
+  <img src="https://github.com/JakeMandeville/course-pictures/blob/main/OSTicket/Ticket%20system%20generated.png" align="center">
 </p>
